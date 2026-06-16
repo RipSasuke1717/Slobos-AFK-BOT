@@ -1,6 +1,6 @@
 {
   "name": "AFK Bot",
-  "botAccount": {
+  "bot-account": {
     "username": "Technoblade",
     "password": "",
     "type": "offline"
@@ -17,64 +17,64 @@
     "z": 0
   },
   "utils": {
-    "autoAuth": {
+    "auto-auth": {
       "enabled": true,
       "password": "Slobos"
     },
-    "antiAfk": {
-      "enabled": true,
-      "sneak": true
+    "anti-afk": {
+      "enabled": false,
+      "sneak": false
     },
-    "chatMessages": {
-      "enabled": true,
-      "repeat": true,
-      "repeatDelay": 500,
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 500,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
         "I like to play Minecraft!"
       ]
     },
-    "chatLog": true,
-    "autoReconnect": true,
-    "autoReconnectDelay": 2000,
-    "maxReconnectDelay": 20000,
-    "periodicRejoin": {
-      "enabled": true,
-      "minInterval": 20,
-      "maxInterval": 60
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 20000,
+    "periodic-rejoin": {
+      "enabled": false,
+      "min-interval": 20,
+      "max-interval": 60
     }
   },
   "movement": {
-    "enabled": true,
-    "circleWalk": {
-      "enabled": true,
+    "enabled": false,
+    "circle-walk": {
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
-    "lookAround": {
-      "enabled": true,
+    "look-around": {
+      "enabled": false,
       "interval": 5000
     },
-    "randomJump": {
-      "enabled": true,
+    "random-jump": {
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
-    "beds": true,
+    "avoidMobs": false,
+    "combat": false,
+    "beds": false,
     "chat": true,
-    "consoleCommands": true
+    "console-commands": true
   },
   "combat": {
-    "attackMobs": true,
-    "autoEat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
-    "pickUpDay": true,
-    "placeNight": true
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
     "enabled": true,
@@ -86,6 +86,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
