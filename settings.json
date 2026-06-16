@@ -1,6 +1,6 @@
 {
   "name": "AFK Bot",
-  "bot-account": {
+  "botAccount": {
     "username": "Technoblade",
     "password": "",
     "type": "offline"
@@ -17,46 +17,46 @@
     "z": 0
   },
   "utils": {
-    "auto-auth": {
+    "autoAuth": {
       "enabled": true,
       "password": "Slobos"
     },
-    "anti-afk": {
+    "antiAfk": {
       "enabled": true,
       "sneak": true
     },
-    "chat-messages": {
+    "chatMessages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 500,
+      "repeatDelay": 500,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": true,
-    "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
-    "periodic-rejoin": {
+    "chatLog": true,
+    "autoReconnect": true,
+    "autoReconnectDelay": 2000,
+    "maxReconnectDelay": 20000,
+    "periodicRejoin": {
       "enabled": true,
-      "min-interval": 20,
-      "max-interval": 60
+      "minInterval": 20,
+      "maxInterval": 60
     }
   },
   "movement": {
     "enabled": true,
-    "circle-walk": {
+    "circleWalk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
-    "look-around": {
+    "lookAround": {
       "enabled": true,
       "interval": 5000
     },
-    "random-jump": {
+    "randomJump": {
       "enabled": true,
       "interval": 10000
     }
@@ -66,15 +66,15 @@
     "combat": true,
     "beds": true,
     "chat": true,
-    "console-commands": true
+    "consoleCommands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attackMobs": true,
+    "autoEat": true
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pickUpDay": true,
+    "placeNight": true
   },
   "discord": {
     "enabled": true,
