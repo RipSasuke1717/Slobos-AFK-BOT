@@ -8,7 +8,7 @@
   "server": {
   "ip": "crappie.aternos.host",
   "port": 43067,
-  "version": "1.21.1"
+  "version": "1.21.11"
 },
   "position": {
     "enabled": false,
