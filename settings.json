@@ -11,7 +11,7 @@
     "version": "1.21.1"
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
@@ -29,14 +29,10 @@
       "enabled": false,
       "repeat": false,
       "repeat-delay": 500,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
-      ]
+      "messages": []
     },
     "chat-log": true,
-    "auto-reconnect": true,
+    "auto-reconnect": false,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
     "periodic-rejoin": {
